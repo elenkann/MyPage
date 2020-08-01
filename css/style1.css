@@ -1,0 +1,53 @@
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf');
+	font-family: "OpenSans-Bold";
+}
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf');
+	font-family: "Open Sans";
+}
+.header{
+    padding: 30px;
+    font-size: 20px; 
+    display: block;
+    border-bottom : 1px solid gray;
+    justify-content: flex-start;
+   font-family: 'OpenSans-Bold',sans-serif;
+}
+
+.main{
+    display:flex;
+    padding: 30px;
+}
+
+
+body {
+  
+    display:flex;
+    flex-direction:column;
+    background-color: bisque;
+    font-family: "Open Sans",sans-serif;
+ 
+}
+.footer{
+    
+    border-top : 1px solid gray;
+    text-align: center;
+}
+
+h2 {
+    font-size: 22px; 
+    color:olive;
+    border-left:5px solid orangered;
+}
+
+img{
+    border-radius: 10px;
+    border: 3px solid olive;
+}
+
+section{
+    padding-left: 30px;
+}
+    
+
