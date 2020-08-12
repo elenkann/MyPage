@@ -55,7 +55,7 @@ while (strRezult.length!=1 && nIterCount<100){
 alert(`За ${nIterCount} перемножением Ваше число ${strPromp} перешло в ${strRezult}`);
 */
 
-let strPromp=prompt('Введите число.')  
+/*let strPromp=prompt('Введите число.')  
 let nIterCount=0;
 while (strPromp.length!=1 && nIterCount<100){
     nIterCount+=1;
@@ -70,3 +70,63 @@ while (strPromp.length!=1 && nIterCount<100){
     console.log(strPromp);
 }
 alert(`За ${nIterCount} перемножением Ваше число перешло в ${strPromp}`);
+*/
+/*/// Замыкание
+function createCounter() {
+    var numberOfCalls = 0;
+    alert(`Пример замыкания \n Выполнилось тело функции : ${numberOfCalls}`);
+    return function() {
+       return ++numberOfCalls;
+    }
+ }
+ var fn = createCounter();
+ alert(`И дальше просто выполняется return: ${fn()}`); //1
+ alert(`И дальше просто выполняется return: ${fn()}`); //2
+ alert(`И дальше просто выполняется return: ${fn()}`); //3
+ */
+/*/// Замыкание 2
+var MyModule = {
+    name: 'Habrahabr',
+    sayPreved: function(name) {
+       alert('PREVED ' + name.toUpperCase())
+    },   
+    sayPrevedToHabrahabr: function() {
+       this.sayPreved(this.name);
+    }
+ }
+ MyModule.sayPrevedToHabrahabr(); 
+
+
+/*Массив с объектами
+
+let car1=  {name: 'Audi' ,
+            price: 300000 ,
+            сolor: 'белый' ,
+            year: 2002 ,
+            isAvailable: true};
+let car2={name: 'Reno' ,
+            price: 400000 ,
+            сolor: 'черный' ,
+            year: 2002 ,
+            isAvailable: false};
+let cars=[car1,car2];
+
+let carsNotAval=cars.filter(car=> {return car.isAvailable;});
+
+console.log(carsNotAval);
+
+*/
+
+/* замыкание*/
+
+/*function sum(a) { 
+   return function (b){
+        return a+b;
+    }
+}
+let fsum=sum(5);
+
+console.log(fsum(6));
+console.log(fsum(10));
+console.log(sum(4)(6));
+*/
