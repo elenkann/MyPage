@@ -55,7 +55,7 @@ while (strRezult.length!=1 && nIterCount<100){
 alert(`За ${nIterCount} перемножением Ваше число ${strPromp} перешло в ${strRezult}`);
 */
 
-let strPromp=prompt('Введите число.')  
+/*let strPromp=prompt('Введите число.')  
 let nIterCount=0;
 while (strPromp.length!=1 && nIterCount<100){
     nIterCount+=1;
@@ -70,3 +70,16 @@ while (strPromp.length!=1 && nIterCount<100){
     console.log(strPromp);
 }
 alert(`За ${nIterCount} перемножением Ваше число перешло в ${strPromp}`);
+*/
+/// Замыкание
+function createCounter() {
+    var numberOfCalls = 0;
+    alert(`Пример замыкания \n Выполнилось тело функции : ${numberOfCalls}`);
+    return function() {
+       return ++numberOfCalls;
+    }
+ }
+ var fn = createCounter();
+ alert(`И дальше просто выполняется return: ${fn()}`); //1
+ alert(`И дальше просто выполняется return: ${fn()}`); //2
+ alert(`И дальше просто выполняется return: ${fn()}`); //3
