@@ -71,7 +71,11 @@ while (strPromp.length!=1 && nIterCount<100){
 }
 alert(`За ${nIterCount} перемножением Ваше число перешло в ${strPromp}`);
 */
+<<<<<<< HEAD
 /*/// Замыкание
+=======
+/// Замыкание
+>>>>>>> 64049e35411b6df6af13dcd5a74f6527852690d4
 function createCounter() {
     var numberOfCalls = 0;
     alert(`Пример замыкания \n Выполнилось тело функции : ${numberOfCalls}`);
@@ -82,6 +86,7 @@ function createCounter() {
  var fn = createCounter();
  alert(`И дальше просто выполняется return: ${fn()}`); //1
  alert(`И дальше просто выполняется return: ${fn()}`); //2
+<<<<<<< HEAD
  alert(`И дальше просто выполняется return: ${fn()}`); //3
  */
 /*/// Замыкание 2
@@ -129,3 +134,6 @@ console.log(fsum(6));
 console.log(fsum(10));
 console.log(sum(4)(6));
 */
+=======
+ alert(`И дальше просто выполняется return: ${fn()}`); //3
+>>>>>>> 64049e35411b6df6af13dcd5a74f6527852690d4
