@@ -125,7 +125,6 @@ console.log(carsNotAval);
     }
 }
 let fsum=sum(5);
-
 console.log(fsum(6));
 console.log(fsum(10));
 console.log(sum(4)(6));
