@@ -2,7 +2,7 @@
   "name": "mypage",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "javaDOM.js",
   "scripts": {
     "build": "webpack"
   },
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/elenkann/MyPage/issues"
   },
-  "homepage": "https://github.com/elenkann/MyPage#readme"
+  "homepage": "https://github.com/elenkann/MyPage#readme",
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }
