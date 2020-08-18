@@ -1,8 +1,3 @@
-let newDiv = document.createElement('div');
-let container = document.querySelector('aside');
-newDiv.innerHTML = '<h1>Я стану крутым фронтенд-разработчиком!</h1>' +
-   '<h2>И для этого приложу все усилия</h2>';
-container.appendChild(newDiv);
 
 
 /* перевод долларов в рубли
