@@ -1,3 +1,9 @@
+let newDiv = document.createElement('div');
+let container = document.querySelector('aside');
+newDiv.innerHTML = '<h1>Я стану крутым фронтенд-разработчиком!</h1>' +
+   '<h2>И для этого приложу все усилия</h2>';
+container.appendChild(newDiv);
+
 
 /* перевод долларов в рубли
     const koefDoll=75;
@@ -71,8 +77,8 @@ while (strPromp.length!=1 && nIterCount<100){
 }
 alert(`За ${nIterCount} перемножением Ваше число перешло в ${strPromp}`);
 */
-/// Замыкание
-function createCounter() {
+///* Замыкание
+/*function createCounter() {
     var numberOfCalls = 0;
     alert(`Пример замыкания \n Выполнилось тело функции : ${numberOfCalls}`);
     return function() {
@@ -83,7 +89,7 @@ function createCounter() {
  alert(`И дальше просто выполняется return: ${fn()}`); //1
  alert(`И дальше просто выполняется return: ${fn()}`); //2
  alert(`И дальше просто выполняется return: ${fn()}`); //3
-
+*/
 /*/// Замыкание 2
 var MyModule = {
     name: 'Habrahabr',
