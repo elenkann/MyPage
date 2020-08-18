@@ -1,0 +1,19 @@
+{
+  "name": "mypage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenkann/MyPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenkann/MyPage/issues"
+  },
+  "homepage": "https://github.com/elenkann/MyPage#readme"
+}
