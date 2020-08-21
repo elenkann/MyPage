@@ -3,8 +3,8 @@ let aMenu=document.getElementById('M3');
 function Note() {
     let newDiv = document.createElement('div');
     let container = document.querySelector('aside');
-    newDiv.innerHTML = '<h1>Я стану крутым фронтенд-разработчиком!</h1>' +
-       '<h2>И для этого приложу все усилия</h2>';
+    newDiv.innerHTML = '<p>Я стану крутым фронтенд-разработчиком!</p>' +
+       '<p>И для этого приложу все усилия</p>';
     container.appendChild(newDiv);
    /// console.log(event); 
 };
