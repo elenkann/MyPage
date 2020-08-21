@@ -58,6 +58,5 @@ addEventListener("keypress",(event)=>{
    }
    ///  Тайм Аут
   
-setTimeout(function() {
-    document.body.style.background = "olive";
-}, 2000);
+//setTimeout(function() {
+//    document.body.style.background = "olive";}, 2000);
